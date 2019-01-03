@@ -27,7 +27,6 @@ def word_substituter(string)
 end
 
 def bulk_tweet_shortener(array)
-  array[4] = "I'm running out of example tweets 4 u guys, which is weird, because I'm a writer & this is just writing & I tweet all day. 4 real, u guys. 4 real."
   array.map do |tweet|
     puts word_substituter(tweet)
   end
