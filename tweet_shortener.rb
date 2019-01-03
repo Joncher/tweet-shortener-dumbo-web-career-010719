@@ -36,7 +36,10 @@ def bulk_tweet_shortener(array)
   end
 end
 
-def selevtive_tweet
+def selective_tweet_shortener(string)
+  if string.length < 140
+    puts string
+  else 
   
 end
 
