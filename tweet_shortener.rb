@@ -46,7 +46,7 @@ end
 
 def shortened_tweet_truncator(string)
   if string[141] != nil
-    string = string[0..137]
+    string = string[0..136]
     string << "..."
   end
 end
