@@ -11,8 +11,7 @@ def dictionary
     "be" => 'b',
     "you" => 'u',
     "at" => '@',
-    "and" => '&',
-    "a" => 'a'
+    "and" => '&'
   }
 end
 
