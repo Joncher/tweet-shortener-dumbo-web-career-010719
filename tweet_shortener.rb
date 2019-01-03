@@ -21,7 +21,7 @@ def word_substituter(string)
   array.each_with_index.map do | words, i |
     if dict.include?(words)
       array[i] = dictionary[words]
-      
+      binding.pry
     end
   end
   array.join(" ")
