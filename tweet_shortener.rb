@@ -44,7 +44,9 @@ def selective_tweet_shortener(string)
   end
 end
 
-def tw
+def shortened_tweet_truncator(string)
+  if string[141] != nil
+    string[137..999].delete
 
 
 
