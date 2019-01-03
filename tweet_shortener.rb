@@ -19,7 +19,7 @@ def word_substituter(string)
   array = string.split
   dict = dictionary.keys
   dict = dict.to_s
-  array.each_with_index.map do | words, i |
+  array.each_with_index do | words, i |
     if dict.include?(words)
       array[i] = dictionary[words]
     else array[i] = words
