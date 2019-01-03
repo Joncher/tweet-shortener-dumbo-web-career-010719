@@ -44,5 +44,7 @@ def selective_tweet_shortener(string)
   end
 end
 
+def tw
+
 
 
