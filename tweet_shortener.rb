@@ -23,6 +23,7 @@ def word_substituter(string)
   array.each_with_index.map do | words, i |
     if dict.include?(words)
       array[i] = dictionary[words]
+    else array[i] = words
     end
   end
   array.join(" ")
