@@ -39,7 +39,8 @@ end
 def selective_tweet_shortener(string)
   if string[141] == nil
     puts string
-  else  puts word_substituter(string)
+  elsif string != nil
+    puts word_substituter(string)
   end
 end
 
