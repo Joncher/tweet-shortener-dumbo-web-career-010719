@@ -48,6 +48,8 @@ def shortened_tweet_truncator(string)
   if string[141] != nil
     string = string[0..136]
     string << "..."
+  elsif string[141] == nil
+    string
   end
 end
 
